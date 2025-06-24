@@ -27,14 +27,14 @@ const About = () => {
               
               <p>
                 Fundada nos princípios de inovação, qualidade e satisfação do cliente, 
-                temos ajudado empresas a navegar no cenário digital com soluções 
+                temos ajudado pessoas a navegarem no cenário digital com soluções 
                 de ponta que impulsionam o crescimento e o sucesso.
               </p>
               
               <p>
                 Nossa abordagem combina expertise técnica com pensamento criativo, garantindo 
                 que cada projeto que empreendemos não apenas atenda, mas supere as expectativas. 
-                Não apenas construímos software – criamos magia digital.
+                
               </p>
             </div>
           </div>

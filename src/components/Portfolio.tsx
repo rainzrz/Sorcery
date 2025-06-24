@@ -45,7 +45,7 @@ const Portfolio = () => {
             Nosso <span className="text-red-600">Portfólio</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Conheça alguns dos projetos que desenvolvemos e veja a qualidade do nosso trabalho
+            Conheça alguns dos projetos que você irá desenvolver
           </p>
         </div>
 

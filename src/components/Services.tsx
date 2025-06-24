@@ -1,5 +1,5 @@
 
-import { Code, Cpu, Shield, Smartphone, Globe, Zap } from 'lucide-react';
+import { Code, TerminalSquare, Cpu, Shield, Smartphone, Globe, Zap } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -19,9 +19,9 @@ const Services = () => {
       description: "Soluções de segurança abrangentes para proteger seus ativos digitais e manter a confiança dos clientes."
     },
     {
-      icon: Smartphone,
-      title: "Aplicações Mobile",
-      description: "Apps nativos e multiplataforma que oferecem experiências excepcionais ao usuário."
+      icon: TerminalSquare,
+      title: "DarkOps",
+      description: "Operações ofensivas, exploração de vulnerabilidades e ataques reais"
     },
     {
       icon: Globe,
@@ -40,7 +40,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Nossos Serviços <span className="text-red-600">Mágicos</span>
+            Nossos <span className="text-red-600">Serviços</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Criamos soluções digitais que expandem os limites do possível, 

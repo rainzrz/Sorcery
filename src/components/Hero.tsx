@@ -41,8 +41,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Onde tecnologia de ponta encontra soluções inovadoras. 
-            Transformamos desafios complexos em experiências elegantes.
+            Te ensinaremos do absoluto ZERO até projetos completos.
+            Transformaremos desafios complexos em experiências elegantes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -50,7 +50,7 @@ const Hero = () => {
               onClick={scrollToServices}
               className="group bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2 hover:gap-4"
             >
-              Explore Nossa Magia
+              Explore o nosso processo
               <ArrowRight className="w-5 h-5 transition-all duration-300" />
             </button>
             

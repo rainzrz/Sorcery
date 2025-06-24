@@ -1,4 +1,3 @@
-
 import { MessageCircle, X } from 'lucide-react';
 import { useState } from 'react';
 
@@ -19,7 +18,7 @@ const WhatsAppWidget = () => {
         <div className="mb-4 bg-white rounded-2xl shadow-2xl p-6 w-80 animate-scale-in">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
                 <MessageCircle className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -44,7 +43,7 @@ const WhatsAppWidget = () => {
 
           <button
             onClick={handleSendMessage}
-            className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
+            className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition-colors duration-300 flex items-center justify-center gap-2"
           >
             <MessageCircle className="w-5 h-5" />
             Enviar Mensagem
@@ -54,7 +53,7 @@ const WhatsAppWidget = () => {
 
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
+        className="bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110"
       >
         {isOpen ? (
           <X className="w-6 h-6" />

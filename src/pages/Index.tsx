@@ -47,7 +47,7 @@ const Index = () => {
                     className="h-8 w-auto mr-3"
                   />
                   <h3 className="text-2xl font-bold text-white">
-                    <span className="text-red-600">Sorcery</span>
+                    <span className="text-red-600"></span>
                   </h3>
                 </div>
                 <p className="text-gray-400 mb-4">
@@ -55,7 +55,7 @@ const Index = () => {
                 </p>
                 <div className="border-t border-gray-800 pt-4">
                   <p className="text-sm text-gray-500">
-                    © 2024 Sorcery. Todos os direitos reservados.
+                    © 2025 Sorcery. Todos os direitos reservados.
                   </p>
                 </div>
               </div>
