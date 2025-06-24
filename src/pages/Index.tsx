@@ -51,7 +51,7 @@ const Index = () => {
                   </h3>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  Transformando ideias em realidade digital
+                  Transformando ideias em realidade
                 </p>
                 <div className="border-t border-gray-800 pt-4">
                   <p className="text-sm text-gray-500">

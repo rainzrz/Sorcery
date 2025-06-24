@@ -21,7 +21,7 @@ const Services = () => {
     {
       icon: TerminalSquare,
       title: "DarkOps",
-      description: "Operações ofensivas, exploração de vulnerabilidades e ataques reais"
+      description: "Operações ofensivas, exploração de vulnerabilidades e ataques reais. Aprenda a atacar e se defender."
     },
     {
       icon: Globe,

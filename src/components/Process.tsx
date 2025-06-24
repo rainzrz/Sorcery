@@ -6,22 +6,22 @@ const Process = () => {
     {
       icon: Search,
       title: "Descoberta",
-      description: "Entendemos profundamente seu negócio, objetivos e necessidades específicas para criar a solução perfeita."
+      description: "Vamos te ensinar a fazer uma boa análise inicial: entender o problema, definir objetivos claros e identificar as necessidades do cliente ou usuário."
     },
     {
       icon: Palette,
       title: "Design",
-      description: "Criamos protótipos e designs únicos que refletem a identidade da sua marca e oferecem a melhor experiência do usuário."
+      description: "Você vai aprender a criar protótipos e interfaces que valorizam a experiência do usuário, combinando estética com funcionalidade"
     },
     {
       icon: Code,
       title: "Desenvolvimento",
-      description: "Transformamos o design em código limpo e eficiente, utilizando as melhores práticas e tecnologias modernas."
+      description: "Vamos te mostrar como transformar o design em um projeto real. Aqui você vai criar interfaces modernas com boas práticas, performance e organização."
     },
     {
       icon: Rocket,
       title: "Lançamento",
-      description: "Realizamos testes rigorosos e lançamos seu projeto com suporte completo para garantir o sucesso."
+      description: "Vamos te ensinar a testar o projeto, corrigir possíveis falhas e publicar sua aplicação de forma segura."
     }
   ];
 

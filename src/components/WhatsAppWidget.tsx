@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const WhatsAppWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const whatsappNumber = "5511999999999"; // Substitua pelo número real
+  const whatsappNumber = "5551986483136"; // Substitua pelo número real
   const message = "Olá! Gostaria de saber mais sobre os serviços da Sorcery.";
 
   const handleSendMessage = () => {

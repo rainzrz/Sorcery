@@ -8,7 +8,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Quanto tempo leva para desenvolver um projeto?",
-      answer: "O tempo varia de acordo com a complexidade do projeto. Projetos simples podem levar de 2-4 semanas, enquanto soluções mais complexas podem levar de 2-6 meses. Sempre fornecemos um cronograma detalhado antes de começar."
+      answer: "O tempo varia de acordo com a complexidade do projeto. Projetos simples podem levar de 2-4 semanas, enquanto soluções mais complexas podem levar de 2-6 meses."
     },
     {
       question: "Vocês oferecem suporte após o lançamento?",
@@ -27,8 +27,8 @@ const FAQ = () => {
       answer: "Nosso processo é dividido em etapas: descoberta e planejamento, design e prototipagem, desenvolvimento, testes e lançamento. Você acompanha cada etapa e recebe atualizações regulares."
     },
     {
-      question: "Vocês fazem projetos personalizados?",
-      answer: "Absolutamente! Cada projeto é único e desenvolvido especificamente para atender às necessidades do seu negócio. Não usamos templates prontos."
+      question: "É golpe?",
+      answer: "Não xD"
     }
   ];
 

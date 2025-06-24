@@ -9,11 +9,10 @@ const VideoDemo = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Veja um <span className="text-red-600">Ataque</span> em Ação
+            Veja um <span className="text-red-600">Aluno</span> em ação
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Descubra como transformamos ideias em soluções digitais extraordinárias. 
-            Assista nossa demonstração e veja o que podemos fazer pelo seu negócio.
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto"> 
+            Assista nossa demonstração e veja você mesmo no futuro.
           </p>
         </div>
 

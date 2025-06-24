@@ -19,23 +19,30 @@ const About = () => {
             </h2>
             
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
-              <p>
-                Na Sorcery, acreditamos no poder da tecnologia para transformar negócios e 
-                criar experiências digitais extraordinárias. Nossa equipe de desenvolvedores, 
-                designers e estrategistas qualificados trabalham juntos para dar vida à sua visão.
-              </p>
-              
-              <p>
-                Fundada nos princípios de inovação, qualidade e satisfação do cliente, 
-                temos ajudado pessoas a navegarem no cenário digital com soluções 
-                de ponta que impulsionam o crescimento e o sucesso.
-              </p>
-              
-              <p>
-                Nossa abordagem combina expertise técnica com pensamento criativo, garantindo 
-                que cada projeto que empreendemos não apenas atenda, mas supere as expectativas. 
-                
-              </p>
+            <p>
+Na Sorcery, acreditamos no poder da tecnologia para transformar negócios e criar experiências digitais extraordinárias. Nossa equipe trabalha unida para dar vida à sua visão.
+</p>
+
+<p>
+Fundada nos princípios de inovação, prática e simplicidade, temos ajudado pessoas a navegarem no cenário digital com soluções de ponta que impulsionam o crescimento e o sucesso.
+</p>
+
+<p>
+Agora, estamos indo além: vamos ensinar você, mesmo que não saiba nada de programação ou tecnologia, a desenvolver projetos digitais completos do zero. Do primeiro clique até a entrega final, você será guiado passo a passo em uma jornada prática e estruturada.
+</p>
+
+<p>
+E você não estará sozinho, vamos utilizar inteligência artificial como professor particular durante todo o processo, otimizando tarefas, acelerando aprendizados e ampliando suas possibilidades criativas.
+</p>
+
+<p>
+Nossa abordagem combina expertise técnica, pensamento criativo e ferramentas inteligentes, garantindo que cada projeto que empreendemos, cada pessoa que formamos. 
+</p>
+
+<p>
+Esteja pronto para o futuro.
+</p>
+
             </div>
           </div>
 
