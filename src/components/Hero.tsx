@@ -1,3 +1,4 @@
+
 import { ArrowRight, Zap } from 'lucide-react';
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center relative overflow-hidden pt-16">
       {/* Watermark SorceryLogo */}
       <img 
         src="/SorceryLogo.png"

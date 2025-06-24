@@ -14,18 +14,13 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-red-600/20">
+    <nav className="fixed top-0 left-0 right-0 z-40 bg-black/90 backdrop-blur-sm border-b border-red-600/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-white">
-              <span className="text-red-600">Sorcery</span>
-            </h1>
-          </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+          <div className="hidden md:flex md:flex-1 md:justify-center">
+            <div className="flex items-baseline space-x-8">
               <button
                 onClick={() => scrollToSection('home')}
                 className="text-gray-300 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
@@ -36,25 +31,37 @@ const Navigation = () => {
                 onClick={() => scrollToSection('services')}
                 className="text-gray-300 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
-                Services
+                Serviços
               </button>
               <button
                 onClick={() => scrollToSection('about')}
                 className="text-gray-300 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
-                About
+                Sobre
               </button>
               <button
-                onClick={() => scrollToSection('contact')}
+                onClick={() => scrollToSection('portfolio')}
                 className="text-gray-300 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
               >
-                Contact
+                Portfólio
+              </button>
+              <button
+                onClick={() => scrollToSection('pricing')}
+                className="text-gray-300 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >
+                Preços
+              </button>
+              <button
+                onClick={() => scrollToSection('faq')}
+                className="text-gray-300 hover:text-red-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >
+                FAQ
               </button>
             </div>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex justify-center flex-1">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-300 hover:text-red-600 p-2"
@@ -78,19 +85,31 @@ const Navigation = () => {
                 onClick={() => scrollToSection('services')}
                 className="text-gray-300 hover:text-red-600 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200"
               >
-                Services
+                Serviços
               </button>
               <button
                 onClick={() => scrollToSection('about')}
                 className="text-gray-300 hover:text-red-600 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200"
               >
-                About
+                Sobre
               </button>
               <button
-                onClick={() => scrollToSection('contact')}
+                onClick={() => scrollToSection('portfolio')}
                 className="text-gray-300 hover:text-red-600 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200"
               >
-                Contact
+                Portfólio
+              </button>
+              <button
+                onClick={() => scrollToSection('pricing')}
+                className="text-gray-300 hover:text-red-600 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200"
+              >
+                Preços
+              </button>
+              <button
+                onClick={() => scrollToSection('faq')}
+                className="text-gray-300 hover:text-red-600 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200"
+              >
+                FAQ
               </button>
             </div>
           </div>
