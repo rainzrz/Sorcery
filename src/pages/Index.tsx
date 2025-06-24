@@ -45,7 +45,7 @@ const Index = () => {
                     src="/SorceryLogo.png"
                     alt="Sorcery Logo"
                     className="h-8 w-auto mr-3"
-                  />
+                  /> 
                   <h3 className="text-2xl font-bold text-white">
                     <span className="text-red-600"></span>
                   </h3>
